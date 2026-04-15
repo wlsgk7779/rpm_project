@@ -1,29 +1,55 @@
-# RPM
+# 🎵 RPM - Running Pace coaching Music
 
-Running Pace Music coaching service
+러너들의 페이스 유지를 도와주는 **러닝 페이스 코칭 뮤직 서비스** 앱입니다.  
+사용자의 BPM에 맞는 음악과 메트로놈을 함께 재생하여 일정한 페이스로 러닝할 수 있도록 도와줍니다.
 
-## Getting Started
+---
 
-To run this project:
+## 📖 앱 소개
 
-```bash
-flutter pub get
-flutter run -t lib/first.dart
-```
-## Description
+러너가 원하는 BPM을 선택하면 해당 BPM에 맞는 노래 플레이리스트와 메트로놈이 준비됩니다.  
+러닝을 시작하면 선택한 BPM에 맞춰 음악과 메트로놈이 함께 재생되어 페이스 유지를 도와줍니다.
 
-RPM (Running Pace Music)은 러너가 설정한 BPM에 맞춰 음악과 메트로놈을 제공하는 앱입니다. 
+---
 
-## Tech Stack
+## ✨ 주요 기능
 
-- **Flutter**: Cross-platform UI toolkit
-- **Dart**: 개발 언어
-- **Android Studio**: 주요 개발 툴
-- **Firebase**
+- **BPM 선택**: 원하는 BPM을 선택하면 해당 BPM에 맞는 노래 플레이리스트 제공
+- **음악 & 메트로놈 재생**: BPM에 맞춰 노래와 메트로놈이 함께 재생, 볼륨 개별 조절 가능
+- **지도**: Google Maps API를 활용한 러닝 경로 표시
+- **러닝 정보 표시**: 칼로리 소모, 러닝 시간 등 표시
+- **러닝 기록 저장**: 러닝 종료 시 해당 기록이 Firestore Database에 자동 저장
+- **러닝 기록 조회**: 저장된 기록(BPM, 칼로리, 시간 등)을 앱에서 확인 가능
+- **로그인 / 회원가입**: Firebase Authentication을 통한 사용자 인증
 
-## Contributors
+---
 
-## 👥 Contributors
+## 🚀 실행 방법
+
+### 방법 1 — 안드로이드 기기에 설치
+1. 프로젝트를 clone합니다.
+2. Android Studio에서 프로젝트를 열고 빌드합니다.
+3. APK를 안드로이드 기기에 설치하여 실행합니다.
+
+### 방법 2 — 에뮬레이터로 실행
+1. Android Studio에서 프로젝트를 엽니다.
+2. AVD Manager에서 안드로이드 에뮬레이터를 실행합니다.
+3. Run 버튼을 눌러 에뮬레이터에서 앱을 실행합니다.
+
+---
+
+## 🛠️ 기술 스택
+
+- **Language**: Dart
+- **Framework**: Flutter
+- **IDE**: Android Studio
+- **인증**: Firebase Authentication
+- **데이터베이스**: Firestore Database
+- **지도**: Google Maps API
+
+---
+
+## 👥 팀원
 
 | 이름     | 역할                                                         |
 |----------|--------------------------------------------------------------|
